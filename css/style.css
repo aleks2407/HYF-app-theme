@@ -205,3 +205,16 @@ img {
 .contact form label {
     text-transform: uppercase;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 800px) {
+    #showcase h2 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    #showcase .showcase-content {
+        padding: 40px 10px;
+    }
+}
